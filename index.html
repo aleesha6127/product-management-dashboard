@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleekDash | Product Dashboard</title>
+    <meta name="description" content="A modern, responsive product dashboard powered by Fake Store API.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <div class="logo">
+                    <h1>SleekDash</h1>
+                </div>
+                <div class="controls">
+                    <div class="sort-wrapper">
+                        <select id="sort-select">
+                            <option value="default">Sort by: Default</option>
+                            <option value="low-high">Price: Low to High</option>
+                            <option value="high-low">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search products by title...">
+            </div>
+        </header>
+
+        <main>
+            <div id="product-grid">
+                <!-- Products will be dynamically injected here -->
+                <div class="loading-container" id="loader">
+                    <span class="spinner"></span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
