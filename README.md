@@ -24,7 +24,20 @@ Aura Luxe is a luxury boutique ecommerce dashboard designed to simulate a premiu
 
 ## Screenshots
 
-(Add screenshots here)
+### Landing Page
+![Landing Page](screenshots/landing-page.png)
+
+### Shop Page
+![Shop Page](screenshots/shop-page.png)
+
+### Product Listing
+![Product Listing](screenshots/product-listing.png)
+
+### Cart / Checkout
+![Cart Checkout](screenshots/cart-checkout.png)
+
+### Order Confirmation
+![Order Confirmation](screenshots/order-confirmation.png)
 
 ## Project Structure
 
