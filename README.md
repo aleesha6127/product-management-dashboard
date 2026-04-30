@@ -1,5 +1,7 @@
 # Aura Luxe | Luxury Ecommerce Dashboard
 
+Live Demo: https://product-management-dashboard-azure.vercel.app/
+
 Aura Luxe is a luxury boutique ecommerce dashboard designed to simulate a premium digital storefront experience. The project focuses on elegant UI design, responsive layouts, and interactive ecommerce workflows such as wishlist, cart management, wallet tracking, and order history.
 
 ## Features
